@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Verdana, sans-serif;
+}
+
+/* Conteneur centré de 600px max */
+.page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Header */
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.site-title a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: #222;
+}
+
+.site-nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+}
